@@ -42,12 +42,12 @@ In diesem Notebook werden die Abflusszeitreihen für die spätere Vorhersage auf
 2. **Waters Interpolation.ipynb**:
 Hier werden die fehlenden Werte der ausgewählten Abflusszeitreihen interpoliert. 
 3. **DWD_precipitation.ipynb**:
-In diesem Skript werden die Niederschlagsstationen für die spätere verwendung aufbereitet und vorbereitet.
+In diesem Skript werden die Niederschlagsstationen für die spätere Verwendung aufbereitet und vorbereitet.
 4. **DWD_gap_handling.ipynb**:
 In diesem Skript werden verschiedene Verfahren zum Umgang mit fehlenden Daten in den Niederschlagszeitreihen angewandt.
 5. **matching_coordinates.ipynb**: Hier werden den jeweiligen Abflussstationen die Niederschlagsstationen zugeordnet, die maximal 20 km von den Abflussstationen entfernt sind. Die zugeordneten Niederschlagszeitreihen dienen schließlich als exogene Variablen für die spätere Vorhersage.
 #### Explorative Datenanalyse
-6. **explorative data analysis.ipynb**: In diesem Skript werden die Abflusszeitreihen analysiert und die Korrelation zwischen den Abflusszeitreihen und den zugeordeten Niederschlagszeitreihen berechnet.
+6. **explorative data analysis.ipynb**: In diesem Skript werden die Abflusszeitreihen analysiert und die Korrelationen zwischen den Abflusszeitreihen und den zugeordeten Niederschlagszeitreihen berechnet.
 
 #### Anwendung der Methoden
 ##### XGBoost
